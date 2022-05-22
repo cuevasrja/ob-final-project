@@ -11,7 +11,8 @@
     "docs:build": "documentation build src/** -f html -o docs",
     "build": "webpack --mode development",
     "build:prod": "webpack --mode production",
-    "deploy:prod": "netlify deploy --site NETLIFY-SITE-ID --auth NETLIFY-AUTH-TOKEN --prod"
+    "deploy:prod": "netlify deploy --site NETLIFY-SITE-ID --auth NETLIFY-AUTH-TOKEN --prod",
+    "deploy": "netlify deploy --prod"
   },
   "keywords": [
     "react"
