@@ -12,7 +12,8 @@
     "build": "webpack --mode development",
     "build:prod": "webpack --mode production",
     "deploy:prod": "netlify deploy --site NETLIFY-SITE-ID --auth NETLIFY-AUTH-TOKEN --prod",
-    "deploy": "netlify deploy --prod"
+    "deploy": "netlify deploy --prod",
+    "deploy:full": "npm run build:prod && npm run deploy"
   },
   "keywords": [
     "react"
